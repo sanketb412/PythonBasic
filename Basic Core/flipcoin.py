@@ -13,7 +13,7 @@ total_tails = 0
 count = 0
 number = 0
 
-raw_number = input("Enter number of coin toss:- \n")
+raw_number = input("Enter number of coin toss:- ")
 
 number = int(raw_number)
 while count < number:
