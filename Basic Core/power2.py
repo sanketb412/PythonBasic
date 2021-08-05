@@ -2,8 +2,8 @@
 # @Author: Sanket Bagde
 # @Date: 2021-05-08
 # @Last Modified by:
-# @Last Modified time:Saket
-# @Title : taken user input and display it
+# @Last Modified time:Sanket
+# @Title : Power of 2 till N
 # '''
 
 raw_range = input("Enter N value:- ")

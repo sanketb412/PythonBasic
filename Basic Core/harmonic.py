@@ -2,8 +2,8 @@
 # @Author: Sanket Bagde
 # @Date: 2021-05-08
 # @Last Modified by:
-# @Last Modified time:Saket
-# @Title : taken user input and display it
+# @Last Modified time:Sanket
+# @Title : Displaying nth Harmonic number value
 # '''
 
 raw_number = input("Enter Nth value for know harmonic number:- ")
