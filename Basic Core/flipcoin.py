@@ -1,8 +1,8 @@
 # ''""
 # @Author: Sanket Bagde
 # @Date: 2021-05-08
-# @Last Modified by:
-# @Last Modified time:Sanket
+# @Last Modified by: Sanket
+# @Last Modified time: 12:37pm
 # @Title : Percentage of wining Head and tail
 # '''
 
@@ -13,9 +13,8 @@ total_tails = 0
 count = 0
 number = 0
 
-raw_number = input("Enter number of coin toss:- ")
+number = int(input("Enter number of coin toss:- "))
 
-number = int(raw_number)
 while count < number:
 
     coin = random.randint(1, 2)
@@ -30,8 +29,5 @@ while count < number:
         total_tails += 1
         count += 1
 
-head_percentage = (total_heads / number) * 100
-tail_percentage = (total_tails / number) * 100
-
-print("\nFlipped heads by", head_percentage, "%" )
-print("and Flipped tails", tail_percentage, "%")
+print("\nFlipped heads by", (total_heads / number) * 100, "%" )
+print("and Flipped tails", (total_tails / number) * 100, "%")

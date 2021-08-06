@@ -6,9 +6,7 @@
 # @Title : Power of 2 till N
 # '''
 
-raw_range = input("Enter N value:- ")
-
-N = int(raw_range)
+N = int(input("Enter N value:- "))
 
 if N < 0 or N > 31:
     print("Please enter positive value less then 31")

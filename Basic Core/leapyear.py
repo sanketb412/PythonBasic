@@ -1,21 +1,15 @@
 # ''""
 # @Author: Sanket Bagde
 # @Date: 2021-05-08
-# @Last Modified by:
-# @Last Modified time:Sanket
+# @Last Modified by: Sanket
+# @Last Modified time: 12:40pm
 # @Title : Checking year as a leap year or not
 # '''
 
 print("---checking leap year or not---")
-raw_year = input("Enter Year to check:- ")
+year = int(input("Enter Year to check:- "))
 
-year = int(raw_year)
-
-a = year % 4
-b = year % 100
-c = year % 400
-
-if a == 0 and b != 0 or c == 0:
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
     print(year,"is a Leap year")
 
 else:
