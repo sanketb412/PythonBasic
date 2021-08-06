@@ -18,7 +18,7 @@ print(L)
 
 for i in range(rows):
     for j in range(cols):
-        L[i][j] = int(input("Enter the value of row "+str(i+1)+" column "+str(j+1)+":"))
+        L[i][j] = (input("Enter the value of row "+str(i+1)+" column "+str(j+1)+":"))
 
 for i in range(rows):
     print(L[i])
